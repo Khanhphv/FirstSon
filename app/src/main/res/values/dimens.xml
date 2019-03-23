@@ -5,4 +5,535 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <!-- Copy out source -->
+        <dimen name="activity_actionbar_height">56dp</dimen>
+
+        <!-- Common Style-->
+        <dimen name="sub_header_divider_layout_height">2dp</dimen>
+        <dimen name="dialog_left_right_padding">20dp</dimen>
+        <dimen name="dialog_radiobtn_top_bottom_padding">13dp</dimen>
+        <dimen name="dialog_title_padding_top">8dp</dimen>
+        <dimen name="dialog_radiobtn_padding_left">16dp</dimen>
+        <!-- round corner over view -->
+        <dimen name="round_corner_single_height">26dp</dimen>
+
+        <!-- MemoList -->
+        <dimen name="memolist_title_inset_start">24dp</dimen>
+        <dimen name="memolist_select_all_width">68dp</dimen>
+        <dimen name="memolist_actionbar_divider_height">3px</dimen>
+        <dimen name="memolist_multiselection_count_text_size">19sp</dimen>
+        <dimen name="memolist_select_all_checkbox_size">32dp</dimen>
+        <dimen name="memolist_select_all_checkbox_margin_top">10dp</dimen>
+        <dimen name="memolist_select_all_checkbox_margin_end">18dp</dimen>
+        <dimen name="memolist_actionbar_allselect_margin_start">18dp</dimen>
+        <dimen name="memolist_select_all_overlap_size">2dp</dimen>
+        <dimen name="memolist_select_all_list_text_size">12dp</dimen>
+        <dimen name="memolist_fab_size">56dp</dimen>
+        <dimen name="memolist_fab_margin">24dp</dimen>
+        <dimen name="memolist_memo_no_item_text_size">19sp</dimen>
+        <dimen name="memolist_memo_sub_no_item_text_size">14sp</dimen>
+        <dimen name="memolist_memo_sub_no_item_text_margin_top">24dp</dimen>
+        <dimen name="memolist_memo_note_margin">7dp</dimen>
+        <dimen name="memolist_memo_note_margin_top">0dp</dimen>
+        <dimen name="memolist_memo_note_margin_bottom">14dp</dimen>
+        <dimen name="memolist_memo_item_bg_stroke_width">1px</dimen>
+        <dimen name="memolist_memo_item_height">93sp</dimen>
+        <dimen name="memolist_memo_item_max_width">797dp</dimen>
+        <dimen name="memolist_memo_item_min_height">132dp</dimen>
+        <dimen name="memolist_memo_item_checkbox_width">32dp</dimen>
+        <dimen name="memolist_memo_item_checkbox_size">15dp</dimen>
+        <dimen name="memolist_memo_item_checkbox_margin_left_right">18dp</dimen>
+        <dimen name="memolist_memo_item_text_margin_left_right">16dp</dimen>
+        <dimen name="memolist_memo_item_title_line_spacing_extra">4dp</dimen>
+        <dimen name="memolist_memo_item_text_line_spacing_extra">4sp</dimen>
+        <dimen name="memolist_memo_item_grid_hwimage_min_height">55dp</dimen>
+        <dimen name="memolist_memo_item_grid_hwimage_max_height">227sp</dimen>
+        <dimen name="memolist_memo_grid_item_bg_radius">26dp</dimen>
+        <dimen name="memolist_memo_grid_item_padding_top">8dp</dimen>
+        <dimen name="memolist_memo_grid_item_padding_button">13dp</dimen>
+        <dimen name="memolist_memo_grid_item_padding_start_end">21dp</dimen>
+        <dimen name="memolist_memo_grid_item_mark_color_margin_top_for_mde">5dp</dimen> <!-- 13dp - memolist_memo_grid_item_padding_top -->
+        <dimen name="memolist_memo_grid_item_mark_color_height">18dp</dimen>
+        <dimen name="memolist_memo_grid_item_extra_height">20dp</dimen>
+        <dimen name="memolist_memo_grid_item_extra_margin_top">8dp</dimen>
+        <dimen name="memolist_memo_grid_item_card_trans">6dp</dimen>
+        <dimen name="memolist_memo_grid_item_card_trans_y">6dp</dimen>
+        <dimen name="memolist_memo_grid_item_checkbox_animation_trans">4dp</dimen>
+        <dimen name="memolist_memo_list_item_bg_radius">26dp</dimen>
+        <dimen name="memolist_memo_list_item_padding_top_bottom">20dp</dimen>
+        <dimen name="memolist_memo_list_item_padding_start">18dp</dimen>
+        <dimen name="memolist_memo_list_item_padding_end">24dp</dimen>
+        <dimen name="memolist_memo_list_item_margin_start">6dp</dimen>
+        <dimen name="memolist_memo_list_item_image_size">75dp</dimen>
+        <dimen name="memolist_memo_list_item_image_margin_left">10dp</dimen>
+        <dimen name="memolist_memo_list_item_extra_height">20dp</dimen>
+        <dimen name="memolist_memo_item_modified_time_height">20dp</dimen>
+        <dimen name="memolist_memo_item_modified_time_text_size">11dp</dimen>
+        <dimen name="memolist_memo_item_text_size">13sp</dimen>
+        <dimen name="memolist_memo_item_title_size">18sp</dimen>
+        <dimen name="memolist_memo_item_footer_height">70dp</dimen>
+        <dimen name="memolist_memo_item_icon_size">13dp</dimen>
+        <dimen name="memolist_memo_item_icon_margin_start">5dp</dimen>
+        <dimen name="memolist_memo_item_right_content_width">104dp</dimen>
+        <dimen name="memolist_memo_item_right_content_min_height">71sp</dimen>
+        <dimen name="memolist_memo_item_reminder_lock_size">13dp</dimen>
+        <dimen name="memolist_memo_list_item_margin_bottom">6dp</dimen>
+        <dimen name="memolist_memo_list_item_color_mark_height">24sp</dimen>
+        <dimen name="memolist_memo_list_item_color_mark_margin_end">15dp</dimen>
+        <dimen name="memolist_memo_list_item_checkbox_margin_right">12dp</dimen>
+        <dimen name="memolist_memo_recycler_padding">0dp</dimen>
+        <dimen name="memolist_memo_recycler_padding_top">0dp</dimen>
+        <dimen name="memo_list_task_todo_padding_right">6sp</dimen>
+        <dimen name="memo_list_task_bullet_padding_right">6sp</dimen>
+        <dimen name="memo_list_task_number_padding_right">6sp</dimen>
+        <dimen name="memolist_memo_item_tipcard_layout_padding">16dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_layout_padding_start_end">24dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_layout_padding_top">24dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_layout_padding_bottom">20dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_close_margin_top">14dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_close_margin_end">15dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_close_width_height">32dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_text_margin_end">23dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_text_margin_top_bottom">8dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_text_line_spacing_extra">4sp</dimen>
+        <dimen name="memolist_memo_item_tipcard_buttonbar_margin_top">8dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_buttonbar_margin_top_when_progress_bar_showing">5dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_button_padding_start_end">16dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_button_margin_start_end">2dp</dimen> <!-- 18dp - memolist_memo_item_tipcard_button_padding_start_end -->
+        <dimen name="memolist_memo_item_tipcard_checkbox_container_margin_top">17dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_permission_caution_padding_start">44dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_permission_caution_text_size">12sp</dimen>
+        <dimen name="memolist_memo_item_tipcard_title_size">19sp</dimen>
+        <dimen name="memolist_memo_item_tipcard_text_size">15sp</dimen>
+        <dimen name="memolist_memo_item_tipcard_text_padding_start">12dp</dimen>
+        <dimen name="memolist_memo_item_tipcard_recycle_bin_text_size">16sp</dimen>
+        <dimen name="memolist_recyclebin_title_text_size">17dp</dimen>
+        <dimen name="memolist_recyclebin_storage_text_size">13dp</dimen>
+        <dimen name="memolist_sortby_scroll_edge_divider_height">2px</dimen>
+        <dimen name="memolist_sortby_dialog_sub_header_layout_padding_top">4dp</dimen>
+        <dimen name="memolist_sortby_dialog_sub_header_layout_padding_bottom">4dp</dimen>
+        <dimen name="memolist_memo_simple_item_padding_top_bottom">20dp</dimen>
+        <dimen name="memolist_memo_simple_item_title_padding_bottom">5dp</dimen>
+        <dimen name="memolist_memo_simple_item_color_mark_margin_end">15dp</dimen>
+        <dimen name="memolist_memo_simple_item_modified_time_text_size">11dp</dimen>
+        <dimen name="memolist_memo_simple_item_modified_time_margin_start">0dp</dimen>
+        <dimen name="memolist_memo_simple_item_modified_time_margin_end">5dp</dimen>
+        <dimen name="memolist_memo_simple_item_title_size">18sp</dimen>
+
+        <!--Category List-->
+        <dimen name="memolist_category_vertical_divider">1px</dimen>
+        <dimen name="category_list_item_bottom_padding">12dp</dimen>
+        <dimen name="category_list_item_sub_header_margin_top">10dp</dimen>
+        <dimen name="category_list_item_left_right_padding">16dp</dimen>
+        <dimen name="category_list_item_end_padding">24dp</dimen>
+        <dimen name="category_list_filter_icon_margin_start">2dp</dimen> <!-- memolist_category_item_left_right_padding + memolist_category_filter_icon_margin_start = 20dp SE9.5 GUI 16page -->
+        <dimen name="category_list_filter_icon_margin_end">16dp</dimen>
+        <dimen name="category_list_plus_icon_margin_start">0dp</dimen>
+        <dimen name="category_list_plus_icon_margin_end">16dp</dimen>
+        <dimen name="category_list_item_text_left_margin">6dp</dimen>
+        <dimen name="category_list_item_text_right_margin">6dp</dimen>
+        <dimen name="category_list_item_plus_icon_size">24dp</dimen>
+        <dimen name="category_list_item_mark_color_size">8dp</dimen>
+        <dimen name="category_list_item_normal_mark_color_margin_start">8dp</dimen>
+        <dimen name="category_list_item_normal_mark_color_margin_end">24dp</dimen>
+        <dimen name="category_list_item_drawer_mark_color_margin_start">8dp</dimen>
+        <dimen name="category_list_item_drawer_mark_color_margin_end">24dp</dimen>
+        <dimen name="category_list_item_reorder_margin_left">16dp</dimen>
+        <dimen name="category_list_item_reorder_icon_size">32dp</dimen>
+        <dimen name="category_list_item_title_text_size">18sp</dimen>
+        <dimen name="category_list_item_count_text_size">15sp</dimen>
+        <dimen name="category_list_item_checkbox_margin_start">2dp</dimen>
+        <dimen name="category_list_item_checkbox_margin_end">10dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_title_padding_top_buttom">10dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_title_margin_start">25dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_title_margin_end">15dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_title_margin_bottom">8dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_title_text_size">16sp</dimen>
+        <dimen name="category_list_item_sub_header_setting_icon_size">30dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_icon_padding">3dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_icon_margin_top">21dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_icon_margin_bottom">17dp</dimen>
+        <dimen name="category_list_item_sub_header_setting_icon_margin_end">29dp</dimen><!-- exclude category_list_drawer_margin_end 13+3+16=32-->
+        <dimen name="category_list_select_item_margin_start">32dp</dimen><!-- exclude category_list_drawer_margin_start_end 16+16=32-->
+        <dimen name="category_list_select_item_margin_end">32dp</dimen><!-- exclude category_list_drawer_margin_start_end 16+16=32-->
+        <dimen name="category_list_select_item_margin_top">14dp</dimen>
+        <dimen name="category_list_select_item_margin_bottom">14dp</dimen>
+        <dimen name="category_list_item_sub_header_title_padding_top">1dp</dimen>
+        <dimen name="category_list_item_title_select_text_size">18sp</dimen>
+        <dimen name="category_list_item_count_select_text_size">13sp</dimen>
+        <dimen name="category_list_item_drawer_count_margine_start_end">3dp</dimen>
+        <dimen name="dialog_sub_header_divider_layout_margin_start">16dp</dimen>
+        <dimen name="category_list_item_sub_header_categories_padding_top_bottom">12dp</dimen>
+        <dimen name="category_list_item_sub_header_categories_padding_start">32dp</dimen>
+        <dimen name="category_list_item_sub_header_categories_padding_end">32dp</dimen><!-- exclude category_list_drawer_margin_end 16+16=32-->
+        <dimen name="category_list_item_sub_header_categories_text_size">18sp</dimen>
+        <dimen name="category_list_item_sub_header_categories_text_margin_end">20dp</dimen>
+        <dimen name="category_list_item_sub_header_categories_arrow_icon_size">20dp</dimen>
+        <dimen name="category_list_item_sub_header_divider_margin_top">16dp</dimen>
+        <dimen name="category_list_item_sub_header_divider_margin_end">24dp</dimen>
+        <dimen name="category_list_item_sub_header_divider_margin_start">24dp</dimen>
+        <dimen name="category_list_title_margin_right">4dp</dimen>
+        <dimen name="category_list_title_margin_top_bottom">13dp</dimen>
+        <dimen name="category_list_item_divider_margin_start">40dp</dimen>
+        <dimen name="category_list_item_divider_margin_end">0dp</dimen>
+        <dimen name="category_list_item_content_divider_height">2px</dimen>
+        <dimen name="category_list_item_filterby_icon_size">24dp</dimen>
+        <dimen name="category_list_drawer_margin_start_end">16dp</dimen>
+        <dimen name="category_list_drawer_manage_categories_padding">5dp</dimen>
+        <dimen name="category_list_manage_categories_layout_height">36dp</dimen>
+        <dimen name="category_list_manage_categories_layout_margin_top_bottom">12dp</dimen>
+        <dimen name="category_list_manage_categories_text_size">15sp</dimen>
+
+        <!-- Category Dialog -->
+        <dimen name="category_edit_dialog_layout_padding_start_end">24dp</dimen>
+        <dimen name="category_edit_dialog_margin_top_bottom">18dp</dimen>
+        <dimen name="category_rename_dialog_margin_bottom">6dp</dimen>
+        <dimen name="category_edit_dialog_edit_text_size">16sp</dimen>
+        <dimen name="category_edit_dialog_padding_start">-6dp</dimen>
+        <dimen name="category_text_input_dialog_padding_Top">18dp</dimen>
+        <dimen name="category_text_input_dialog_padding_Bottom">10dp</dimen>
+        <dimen name="category_text_input_dialog_margin_Bottom">8dp</dimen>
+        <dimen name="category_mark_color_width_height">34dp</dimen>
+        <dimen name="category_mark_color_column_min_space">3dp</dimen>
+        <dimen name="category_mark_color_row_space">16dp</dimen>
+
+        <!-- bottom navigation view -->
+        <dimen name="bottom_navigation_with_icon_view_height">60dp</dimen>
+        <dimen name="bottom_navigation_text_view_height">56dp</dimen>
+
+        <!-- Fab plus icon -->
+        <dimen name="memolist_fab_icon_thickness">19dp</dimen>
+        <dimen name="memolist_fab_icon_length">27dp</dimen>
+        <!-- navigation drawer-->
+        <dimen name="memolist_drawer_fragment_top_divider_height">1px</dimen>
+        <dimen name="memolist_drawer_fragment_max_width">350dp</dimen>
+        <item name="memolist_drawer_fragment_portrait_width_ratio" format="float" type="dimen">0.844</item>
+        <item name="memolist_drawer_fragment_landscape_width_ratio" format="float" type="dimen">0.46</item>
+        <item name="memolist_drawer_fragment_desk_width_ratio" format="float" type="dimen">0.844</item>
+        <dimen name="memolist_drawer_fragment_margin_top">14dp</dimen><!--status bar height 24dp + 14dp = 38dp-->
+
+        <!-- memolist - picker -->
+        <dimen name="memolist_picker_actionbar_lower_height">56dp</dimen>
+        <dimen name="memolist_picker_actionbar_margin_top_bottom">6dp</dimen>
+        <dimen name="memolist_picker_spinner_padding_side">24dp</dimen>
+        <dimen name="memolist_picker_spinner_triangle_width">22dp</dimen>
+        <dimen name="memolist_picker_spinner_triangle_height">24dp</dimen>
+        <dimen name="memolist_picker_spinner_vertical_offset">-62dp</dimen>
+        <dimen name="memolist_picker_spinner_horizontal_offset">-24dp</dimen>
+        <dimen name="memolist_picker_category_spinner_name_margin_left">4dp</dimen>
+        <dimen name="memolist_picker_category_spinner_list_popup_width">200dp</dimen>
+        <dimen name="memolist_picker_category_spinner_dropdown_padding_start_end">16dp</dimen>
+
+        <!-- Item blank -->
+        <dimen name="memolist_grid_item_bottom_blank_last_title">0dp</dimen>
+        <dimen name="memolist_grid_item_bottom_blank_last_content">0dp</dimen>
+        <dimen name="memolist_grid_item_bottom_blank_last_image">0dp</dimen>
+        <dimen name="memolist_grid_item_bottom_blank_last_only_image">0dp</dimen>
+        <dimen name="memolist_grid_item_bottom_blank_last_voice">0dp</dimen>
+        <dimen name="memolist_grid_item_blank_title_image">0dp</dimen>
+        <dimen name="memolist_grid_item_blank_content_hw">0dp</dimen>
+        <dimen name="memolist_grid_item_blank_content_image">8dp</dimen>
+        <dimen name="memolist_grid_item_blank_buttom_title">12dp</dimen>
+        <dimen name="memolist_grid_item_blank_top_image">0dp</dimen>
+        <dimen name="memolist_list_item_blank_top_title">9dp</dimen>
+        <dimen name="memolist_list_item_blank_buttom_title">5dp</dimen>
+        <dimen name="memolist_list_item_blank_top_content">0dp</dimen>
+        <dimen name="memolist_list_item_blank_top_hw">0dp</dimen>
+        <dimen name="memolist_list_item_blank_title_content">0dp</dimen>
+        <dimen name="memolist_list_item_blank_title_hw">0dp</dimen>
+        <dimen name="memolist_simple_item_blank_bottom_title">5dp</dimen>
+
+        <!-- Image and HW hover -->
+        <dimen name="memolist_hover_image_thumbnail_max">276dp</dimen>
+        <dimen name="memolist_hover_hw_thumbnail_witdh_min">169dp</dimen>
+        <dimen name="memolist_hover_hw_thumbnail_witdh_max">276dp</dimen>
+        <dimen name="memolist_hover_hw_thumbnail_height_max_portrait">420dp</dimen>
+        <dimen name="memolist_hover_hw_thumbnail_height_max_landscape">241dp</dimen>
+
+        <!-- list item hover -->
+        <dimen name="memolist_item_hover_image_margin">2dp</dimen>
+
+        <!-- memolist settings -->
+        <dimen name="memolist_settings_divider_height">2px</dimen>
+        <dimen name="memolist_settings_import_spinner_text_size">18sp</dimen>
+        <dimen name="memolist_settings_list_progress_right_padding">16dp</dimen>
+        <dimen name="memolist_settings_list_start_end_margin">24dp</dimen>
+        <dimen name="memolist_settings_list_two_lines_min_height">69.75dp</dimen>
+        <dimen name="memolist_settings_list_text_top_bottom_padding">14dp</dimen>
+        <dimen name="memolist_settings_list_divider_start_end_margin">18dp</dimen>
+        <item name="settings_list_start_end_weight" type="dimen" format="float">0.0</item>
+        <item name="settings_list_center_weight" type="dimen" format="float">100.0</item>
+        <dimen name="settings_list_vertical_divider">1px</dimen>
+        <dimen name="settings_sub_app_bar_divider_height">3px</dimen>
+        <dimen name="settings_lock_summary_text_padding_top_bottom">20dp</dimen>
+
+        <!-- Trash Description -->
+        <dimen name="trash_description_layout_margin_left_right">20dp</dimen>
+        <dimen name="trash_description_layout_margin_top">19dp</dimen>
+        <dimen name="trash_description_layout_margin_bottom">12dp</dimen>
+
+
+        <!-- Recent search -->
+        <dimen name="recent_search_list_footer_text_view_side_padding">16dp</dimen>
+        <dimen name="recent_search_list_margin_start">24dp</dimen>
+        <dimen name="recent_search_list_item_delete_end_padding">20dp</dimen>
+        <dimen name="recent_search_list_item_delete_button_size">24dp</dimen>
+        <dimen name="recent_search_list_item_update_time_text_size">14sp</dimen>
+        <dimen name="recent_search_list_clear_history_text_size">16sp</dimen>
+        <dimen name="recent_search_list_clear_history_text_end_margin">24dp</dimen>
+        <dimen name="recnet_search_list_item_date_end_padding">15dp</dimen>
+        <dimen name="recent_search_list_footer_height">52dp</dimen>
+        <dimen name="recent_search_list_footer_margin_top">2dp</dimen>
+        <dimen name="recent_search_sub_header_container_margin_top">6.75dp</dimen>
+        <dimen name="recent_search_sub_header_min_height">29.25dp</dimen>
+        <dimen name="sub_header_text_size">14sp</dimen>
+        <dimen name="recent_search_sub_header_text_margin_top_bottom">5dp</dimen>
+
+        <!-- Winset List : line height -->
+        <dimen name="w_list_main_font_size">18sp</dimen>
+
+        <!-- Lock -->
+        <dimen name="lock_confirm_password_margin_top_bottom">32dp</dimen>
+        <dimen name="lock_confirm_password_margin_start_end">24dp</dimen>
+        <dimen name="lock_confirm_password_port_guide_text_margin_start_end">39dp</dimen>
+        <dimen name="lock_confirm_dialog_start_end_padding">24dp</dimen>
+        <dimen name="lock_confirm_dialog_top_padding">24dp</dimen>
+        <dimen name="lock_confirm_dialog_bottom_padding">24dp</dimen>
+        <dimen name="lock_confirm_password_help_text_size">17sp</dimen>
+        <dimen name="lock_confirm_password_text_padding_top_bottom">8dp</dimen>
+        <dimen name="lock_confirm_password_land_text_margin_top">6dp</dimen>
+        <dimen name="lock_confirm_password_checkbox_text_size">15sp</dimen>
+        <dimen name="lock_set_password_checkbox_margin_top">38dp</dimen>
+        <dimen name="lock_set_password_checkbox_land_margin_top">10dp</dimen>
+        <dimen name="lock_set_password_checkbox_margin_bottom">24dp</dimen>
+        <dimen name="lock_set_password_checkbox_min_height">32dp</dimen>
+        <dimen name="lock_confirm_fingerprint_help_text_size">17sp</dimen>
+        <dimen name="lock_confirm_fingerprint_help_text_margin_bottom">28dp</dimen>
+        <dimen name="lock_confirm_fingerprint_use_password_button_margin_top">40dp</dimen>
+        <dimen name="lock_confirm_use_password_text_size">15sp</dimen>
+        <dimen name="lock_confirm_dialog_text_size">17sp</dimen>
+        <dimen name="lock_confirm_iris_help_text_size">17sp</dimen>
+        <dimen name="lock_confirm_iris_only_help_text_margin_top_bottom">68dp</dimen>
+        <dimen name="lock_confirm_dialog_iris_only_help_text_margin_top_bottom">24dp</dimen>
+        <dimen name="lock_reset_button_min_height">36dp</dimen>
+        <dimen name="lock_reset_button_start_end_padding">20dp</dimen>
+        <dimen name="lock_reset_button_margin_top_bottom">29dp</dimen>
+        <dimen name="lock_reset_button_land_margin_top_bottom">17dp</dimen>
+        <dimen name="lock_confirm_iris_preview_height">202.5dp</dimen>
+        <dimen name="lock_confirm_iris_preview_oval">121dp</dimen>
+        <dimen name="lock_confirm_iris_preview">30dp</dimen>
+        <dimen name="lock_fingerprint_start_end_margin">24dp</dimen>
+        <dimen name="lock_confirm_multiple_guide_text_top_margin">16dp</dimen>
+        <dimen name="lock_confirm_multiple_guide_text_bottom_margin">39dp</dimen>
+
+        <!-- HandWriting -->
+        <dimen name="settings_handwriting_grid_outside_line">2px</dimen>
+        <dimen name="settings_handwriting_grid_inside_line">2px</dimen>
+        <dimen name="settings_handwriting_guideline_tablet_activity_max_width">800dp</dimen>
+        <dimen name="settings_handwriting_guideline_preview_width_height">180dp</dimen>
+        <dimen name="settings_handwriting_canvas_margin_start_end">19dp</dimen>
+        <dimen name="settings_handwriting_guideline_seekbar_start_end_padding">16dp</dimen>
+        <dimen name="settings_handwriting_guideline_button_width_height">50dp</dimen>
+        <dimen name="settings_handwriting_guideline_button_text_space">3dp</dimen>
+        <dimen name="settings_handwriting_guideline_preview_margin_bottom">62dp</dimen>
+        <dimen name="settings_handwriting_guideline_seekbar_text_margin_top">27dp</dimen>
+        <dimen name="settings_handwriting_guideline_button_gap_width">0dp</dimen>
+        <dimen name="settings_handwriting_guideline_button_stroke_width">1dp</dimen>
+
+        <!-- About Notes -->
+        <dimen name="about_notes_version_top_margin">10dp</dimen>
+        <dimen name="about_notes_version_notice_top_margin">8dp</dimen>
+        <dimen name="about_notes_update_btn_top_margin">10dp</dimen>
+
+        <!-- Task Edge Background image -->
+        <dimen name="task_edge_bg_size">48dp</dimen>
+        <dimen name="task_edge_bg_icon_size">46dp</dimen>
+        <dimen name="task_edge_image_size">21.5dp</dimen>
+
+        <!-- FTU -->
+        <dimen name="ftu_title_margin_bottom">12dp</dimen>
+        <dimen name="ftu_layout_margin_left_right">20dp</dimen>
+        <dimen name="ftu_control_btn_padding_top_bottom">6dp</dimen>
+        <dimen name="ftu_control_btn_margin_start_end">20dp</dimen>
+        <dimen name="ftu_control_btn_text_size">15sp</dimen>
+        <dimen name="ftu_control_btn_next_size">24dp</dimen>
+        <dimen name="ftu_control_indicator_size">8dp</dimen>
+        <dimen name="ftu_control_indicator_margin">12dp</dimen>
+        <dimen name="ftu_control_indicator_accessibility_btn_padding">4dp</dimen>
+        <dimen name="ftu_control_layout_height">51dp</dimen>
+        <dimen name="ftu_lottie_view_width">320dp</dimen>
+        <dimen name="ftu_lottie_view_height">320dp</dimen>
+        <dimen name="ftu_lottie_view_top_margin">82dp</dimen>
+        <dimen name="ftu_guide_description_margin_top">12dp</dimen>
+        <dimen name="ftu_guide_title_text_size">28dp</dimen>
+        <dimen name="ftu_guide_title_padding_start_end">3dp</dimen>
+        <dimen name="ftu_guide_description_text_size">14sp</dimen>
+        <dimen name="ftu_1st_tv_margin_top_dream">35dp</dimen>
+        <dimen name="ftu_1st_tv_height_dream">125dp</dimen>
+        <dimen name="ftu_1st_image_margin_dream">16dp</dimen>
+        <dimen name="ftu_1st_icon_width">116dp</dimen>
+        <dimen name="ftu_1st_icon_height">105dp</dimen>
+
+        <!-- import sub activity -->
+        <dimen name="memolist_settings_import_one_line_list_min_height">69.75dp</dimen>
+        <dimen name="memolist_settings_import_downloading_dialog_progressbar_size">48dp</dimen>
+        <dimen name="memolist_settings_import_snote_navigation_arrow_width">14dp</dimen>
+        <dimen name="memolist_settings_import_snote_navigation_arrow_height">48dp</dimen>
+        <dimen name="memolist_settings_import_snotes_margin_start">18dp</dimen>
+        <dimen name="memolist_settings_import_snote_item_fullpath_height">48dp</dimen>
+        <dimen name="memolist_settings_import_snote_item_fullpath_text_size">13sp</dimen>
+        <dimen name="memolist_settings_import_snote_item_margin_third">12dp</dimen>
+        <dimen name="memolist_settings_import_snote_item_checkbox_wh">32dp</dimen>
+        <dimen name="memolist_settings_import_snote_item_filetype_icon_wh">40dp</dimen>
+        <dimen name="memolist_settings_import_snote_item_filename_text_size">16sp</dimen>
+        <dimen name="memolist_settings_import_snote_item_filetime_text_size">13sp</dimen>
+        <dimen name="memolist_settings_import_snote_item_padding_topbottom">14dp</dimen>
+        <dimen name="memolist_settings_import_checkbox_start_end_margin">18dp</dimen>
+        <dimen name="memolist_settings_import_list_checkbox_start_margin">18dp</dimen>
+
+        <dimen name="memolist_import_nonote_right_left_margin">30dp</dimen>
+        <dimen name="memolist_memo_item_margin_top_bottom">4dp</dimen>
+        <dimen name="memolist_memo_item_margin">4dp</dimen>
+        <dimen name="memolist_settings_divider_margin">10dp</dimen>
+
+        <!-- menu-->
+        <dimen name="sem_menu_popup_corner_radius">6dp</dimen>
+
+        <!-- Widget provider -->
+        <dimen name="widget_text_size">15sp</dimen>
+        <dimen name="widget_title_size">20sp</dimen>
+        <dimen name="widget_title_height">48dp</dimen>
+        <dimen name="widget_title_margin_left">27dp</dimen>
+        <dimen name="widget_title_shadow_height">1px</dimen>
+        <dimen name="widget_to_view_more_text_size">12sp</dimen>
+        <dimen name="widget_to_view_more_padding">11dp</dimen>
+        <dimen name="widget_to_view_more_height">38dp</dimen>
+        <dimen name="widget_to_view_more_divider_height">2px</dimen>
+        <dimen name="widget_no_memos_text_size">15dp</dimen>
+        <dimen name="widget_toolbar_height">63dp</dimen>
+        <dimen name="widget_outline_radius">14dp</dimen>
+        <dimen name="widget_raised_button_radius">18dp</dimen>
+        <dimen name="widget_ripple_size">25dp</dimen>
+        <dimen name="widget_toolbar_ic_width">42dp</dimen>
+        <dimen name="widget_toolbar_ic_height">42dp</dimen>
+        <dimen name="widget_min_width">320dp</dimen>
+        <dimen name="widget_resized_min_width">110dp</dimen>
+        <dimen name="widget_toolbar_padding">18dp</dimen>
+        <dimen name="widget_toolbar_stroke">1px</dimen>
+        <dimen name="widget_list_todo_size">20dp</dimen>
+        <dimen name="widget_list_todo_end_margin_minus_one_dp">9dp</dimen>
+        <dimen name="widget_list_text_item_row_padding_top">6dp</dimen>
+        <dimen name="widget_list_object_item_row_padding_top">8dp</dimen>
+        <dimen name="widget_modified_time_padding_top">32dp</dimen>
+        <dimen name="widget_modified_time_padding_bottom">25dp</dimen>
+        <dimen name="widget_modified_time_text_size">12sp</dimen>
+        <dimen name="widget_voice_height">55dp</dimen>
+        <dimen name="widget_card_item_height">80dp</dimen>
+        <dimen name="widget_item_margin_top">6dp</dimen>
+        <dimen name="widget_pin_listview_top_padding">4dp</dimen>
+        <dimen name="widget_pin_side_padding">27dp</dimen>
+        <dimen name="widget_task_bullet_margin_right">20dp</dimen>
+        <dimen name="widget_pin_setting_width">24dp</dimen>
+        <dimen name="widget_pin_setting_start_margin">13dp</dimen>
+        <dimen name="widget_pin_setting_end_margin">10dp</dimen>
+        <dimen name="widget_list_view_side_bottom_margin">10dp</dimen>
+
+        <!-- Widget Pin Settings -->
+        <dimen name="widget_pin_setting_top_height">56dp</dimen>
+        <dimen name="widget_pin_setting_top_margin">24dp</dimen>
+        <dimen name="widget_pin_setting_title_text_size">19sp</dimen>
+        <dimen name="widget_pin_setting_navi_up_icon_size">24dp</dimen>
+        <dimen name="widget_pin_setting_preview_margin_side">56dp</dimen>
+        <dimen name="widget_pin_setting_change_parent_height">120dp</dimen>
+        <dimen name="widget_pin_setting_change_btn_width">295dp</dimen>
+        <dimen name="widget_pin_setting_change_btn_height">36dp</dimen>
+        <dimen name="widget_pin_setting_change_btn_text_size">15sp</dimen>
+        <dimen name="widget_pin_setting_button_parent_side_margin">24dp</dimen>
+        <dimen name="widget_pin_setting_slider_parent_side_margin">24dp</dimen>
+        <dimen name="widget_pin_setting_slider_side_margin">24dp</dimen>
+        <dimen name="widget_pin_setting_slider_parent_margin_top">28dp</dimen>
+        <dimen name="widget_pin_setting_slider_parent_margin_bottom">27dp</dimen>
+        <dimen name="widget_pin_setting_slider_title_text_size">14sp</dimen>
+        <dimen name="widget_pin_setting_slider_margin_left">24dp</dimen>
+        <dimen name="widget_land_pin_setting_slider_height">32dp</dimen>
+        <dimen name="widget_land_pin_setting_preview_parent_width">288dp</dimen>
+        <dimen name="widget_land_pin_setting_preview_parent_height">240.5dp</dimen>
+        <dimen name="widget_land_pin_setting_margin_top">12dp</dimen>
+        <dimen name="widget_land_pin_setting_margin_left">42dp</dimen>
+        <dimen name="widget_land_pin_setting_change_btn_margin_top">14dp</dimen>
+        <dimen name="widget_land_pin_setting_margin_left_list">24dp</dimen>
+        <dimen name="widget_land_pin_setting_margin_bottom">27.5dp</dimen>
+        <dimen name="widget_pin_settings_control_layout_width">360dp</dimen>
+        <dimen name="widget_land_pin_setting_margin_right">42dp</dimen>
+        <dimen name="widget_land_pin_setting_slider_title_height">48dp</dimen>
+        <dimen name="widget_land_pin_setting_slider_margin_left">24dp</dimen>
+        <dimen name="widget_land_pin_setting_slider_margin_right">24dp</dimen>
+        <dimen name="widget_land_pin_setting_slider_parent_margin_top">42dp</dimen>
+        <dimen name="widget_land_pin_setting_slider_title_margin_top">18.5dp</dimen>
+        <dimen name="widget_land_pin_setting_change_parent_height">36dp</dimen>
+
+        <dimen name="widget_pin_setting_top_divider_height">2px</dimen>
+        <dimen name="widget_pin_setting_top_divider_side_margin">18dp</dimen>
+
+        <dimen name="widget_pin_setting_preview_width">232dp</dimen>
+        <dimen name="widget_pin_setting_preview_height">343dp</dimen>
+        <dimen name="widget_pin_setting_preview_top_bottom_margin">14dp</dimen>
+        <dimen name="widget_pin_setting_slider_height">36.5dp</dimen>
+        <dimen name="widget_pin_setting_slider_percent_text_width">62.5dp</dimen>
+        <dimen name="widget_pin_setting_slider_percent_text_right_margin">12dp</dimen>
+        <dimen name="widget_pin_setting_slider_percent_text_size">22dp</dimen>
+        <dimen name="widget_pin_setting_slider_title_size">16dp</dimen>
+
+        <dimen name="widget_land_pin_setting_preview_width">162.5dp</dimen>
+
+        <!-- Widget Pin Settings for tablet-->
+        <dimen name="widget_pin_setting_top_margin_for_tablet">24dp</dimen>
+        <dimen name="widget_pin_setting_top_height_for_tablet">56dp</dimen>
+        <dimen name="widget_pin_setting_preview_margin_side_for_tablet">20dp</dimen>
+        <dimen name="widget_pin_setting_preview_marin_top_for_tablet">46dp</dimen>
+        <dimen name="widget_pin_setting_preview_marin_bottom_for_tablet">70dp</dimen>
+        <dimen name="widget_pin_setting_change_btn_width_for_tablet">295dp</dimen>
+        <dimen name="widget_pin_setting_button_parent_side_margin_for_tablet">23dp</dimen>
+        <dimen name="widget_pin_setting_slider_parent_side_margin_for_tablet">24dp</dimen>
+        <dimen name="widget_pin_setting_slider_side_margin_for_tablet">9dp</dimen>
+        <dimen name="widget_pin_setting_slider_parent_margin_top_for_tablet">56dp</dimen>
+        <dimen name="widget_pin_setting_slider_parent_margin_bottom_for_tablet">80dp</dimen>
+        <dimen name="widget_pin_setting_slider_height_for_tablet">32dp</dimen>
+        <dimen name="widget_pin_setting_preview_min_height">100dp</dimen>
+        <dimen name="widget_pin_setting_preview_max_width">550dp</dimen>
+
+        <!-- Image ShortCut Widget -->
+        <dimen name="widget_img_shortcut_container_left_right_padding">11dp</dimen>
+        <dimen name="widget_img_shortcut_container_bottom_padding">11dp</dimen>
+        <dimen name="widget_img_shortcut_title_text_size">9dp</dimen>
+        <dimen name="widget_img_shortcut_title_margin_top">6dp</dimen>
+        <dimen name="widget_img_shortcut_title_margin_bottom">5dp</dimen>
+        <dimen name="widget_img_shortcut_image_margin_top">11dp</dimen>
+        <dimen name="widget_img_shortcut_empty_image_size">25dp</dimen>
+
+        <!-- Shared by MDE -->
+        <dimen name="shared_note_mde_ic_crown_size">16dp</dimen>
+        <dimen name="shared_crown_padding_right">7dp</dimen>
+        <dimen name="shared_notebook_grid_layout_min_height">172dp</dimen>
+        <dimen name="shared_notebook_grid_layout_padding_start_end">13dp</dimen>
+        <dimen name="shared_notebook_grid_layout_padding_top">11dp</dimen>
+        <dimen name="shared_notebook_grid_layout_padding_bottom">27dp</dimen>
+        <dimen name="shared_notebook_group_count_layout_height">21dp</dimen>
+        <dimen name="shared_notebook_group_count_layout_padding_start_end">7dp</dimen>
+        <dimen name="shared_notebook_group_count_icon_size">16dp</dimen>
+        <dimen name="shared_notebook_group_count_icon_margin_end">8dp</dimen>
+        <dimen name="shared_notebook_group_count_text_size">15dp</dimen>
+        <dimen name="shared_notebook_group_master_icon_size">20dp</dimen>
+        <dimen name="shared_invitation_list_padding_start_end">24dp</dimen>
+        <dimen name="shared_invitation_list_padding_top_bottom">12dp</dimen>
+        <dimen name="shared_invitation_list_time_view_margin_top">3dp</dimen>
+        <dimen name="shared_invitation_list_requested_time_margin_start">4dp</dimen>
+        <dimen name="shared_invitation_list_divider_height">1px</dimen>
+
+
 </resources>
