@@ -3,4 +3,28 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="badge_background_color">#ff713f</color>
+    <!-- CategoryList -->
+    <color name="category_list_sub_header_setting_text_color">#B2252525</color>
+    <color name="category_list_item_bg_color">#fcfcfc</color>
+    <color name="category_list_sub_header_categories_text_color">#252525</color>
+    <color name="category_list_item_title_select_text_color">#252525</color>
+    <color name="category_list_item_count_text_color">#909090</color>
+    <color name="category_list_item_text_color">#252525</color>
+    <color name="category_list_content_divider_color">#e6e6e6</color>
+    <color name="category_list_item_filter_icon_color">#797979</color>
+    <color name="category_list_item_sub_header_setting_icon_color">#797979</color>
+    <color name="category_list_item_sub_header_categories_arrow_icon_color">#797979</color>
+    <color name="category_list_edit_reorder_icon_color">#808080</color>
+    <color name="category_mark_color_screen_off_memo">#656565</color>
+    <color name="category_mark_color_background_uncategorized">#c6c6c6</color>
+    <color name="category_vertical_divider_bg">#dedede</color>
+    <color name="category_item_add_category_icon_color">#36be1f</color>
+    <!-- MemoList - Drawer -->
+    <color name="memolist_drawer_fragment_scrim_color">#33000000</color>
+    <color name="drawer_manage_category_bg_color">#e5e5e5</color>
+    <color name="drawer_list_bg_color">#fcfcfc</color>
+    <color name="drawer_ripple_opacity">#1f000000</color>
 </resources>
