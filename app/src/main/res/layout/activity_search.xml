@@ -8,56 +8,69 @@
     android:weightSum="10"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".SearchActivity"
-    android:background="#c8fafafa">
+    android:background="@color/white"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:weightSum="10"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:paddingTop="8dp"
-        android:paddingBottom="14dp">
-
+        android:layout_weight="0.6"
+        android:background="@color/white">
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:weightSum="10">
-            <ImageView
-                android:id="@+id/fab"
-                android:layout_gravity="center"
-                android:layout_weight="1.5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_arrow_back_black1_24dp"/>
+            android:layout_weight="8.5"
+            android:paddingTop="5dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <EditText
+                android:id="@+id/edtSearch"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="7"
-                android:fontFamily="sans-serif"
-                android:gravity="center_vertical"
-                android:text="Tìm kiếm truyện...."
-                android:textColor="#b150504a" />
-
-            <LinearLayout
-                android:layout_weight="1.5"
-                android:layout_width="0dp"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:layout_marginLeft="20dp"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/thanos"/>
-            </LinearLayout>
+                android:background="@drawable/shape_box_search"
+                android:hint="Tác giả/Tác phẩm"
+                android:padding="8dp"
+                android:textSize="14sp"
+                tools:fontFamily="sans-serif" />
         </LinearLayout>
-        <!--<View-->
-            <!--android:layout_marginTop="8dp"-->
-            <!--android:background="#41898585"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="0dp"-->
-            <!--android:layout_weight="0.3"/>-->
+
+        <RelativeLayout
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtHuy"
+                android:textColor="@color/black"
+                android:text="Hủy"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.4"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="Tìm kiếm nổi bật"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleview_featuredSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
     </LinearLayout>
 
 </LinearLayout>

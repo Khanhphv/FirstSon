@@ -4,8 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
     <color name="badge_background_color">#ff713f</color>
+    <color name="box_item">#79e3e7e7</color>
     <!-- CategoryList -->
     <color name="category_list_sub_header_setting_text_color">#B2252525</color>
     <color name="category_list_item_bg_color">#fcfcfc</color>
